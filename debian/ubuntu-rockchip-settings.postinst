@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+    configure)
+        # Remove release upgrade motd
+        rm -f /var/lib/ubuntu-release-upgrader/release-upgrade-available
+        ;;
+esac
+
+#DEBHELPER#
