@@ -7,6 +7,8 @@ install_data('server/99-fake-cloud.cfg',
              install_dir: etc / 'cloud/cloud.cfg.d')
 install_data('server/getty-wait.conf',
              install_dir: etc / 'systemd/system/cloud-config.service.d')
+install_data('server/override.conf',
+             install_dir: etc / 'systemd/system/systemd-networkd-wait-online.service.d')
 
 install_data('common/cpu-governor.service',
              install_dir: '/lib/systemd/system')

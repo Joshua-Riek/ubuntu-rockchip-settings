@@ -1,2 +1,3 @@
 etc/cloud/cloud.cfg.d/99-fake-cloud.cfg
 etc/systemd/system/cloud-config.service.d/getty-wait.conf
+etc/systemd/system/systemd-networkd-wait-online.service.d/override.conf
