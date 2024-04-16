@@ -1,0 +1,17 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+    configure)
+        # Unconditionally remove the obsolete (unpackaged) fake configuration
+        # file. This isn't done with rm_conffile or conffiles firstly because
+        # those both refuse to work except on upgrade and this is a new
+        # package. We can't do it on upgrade to another package (e.g.
+        # ubuntu-raspi-settings) either because the "proper" methods both
+        # demand the prior version actually owned the file being removed. So...
+        rm -f /etc/cloud/cloud.cfg.d/99-fake_cloud.cfg
+        ;;
+esac
+
+#DEBHELPER#

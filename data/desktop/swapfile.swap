@@ -1,0 +1,8 @@
+[Unit]
+Description=The default swapfile
+
+[Swap]
+What=/swapfile
+
+[Install]
+WantedBy=swap.target

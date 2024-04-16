@@ -1,0 +1,29 @@
+Source: ubuntu-rockchip-settings
+Section: x11
+Priority: optional
+Maintainer: Joshua Riek <jjriek@verizon.net>
+Build-Depends: debhelper-compat (= 12), meson (>= 0.40.1), dh-translations
+Standards-Version: 4.6.2
+Vcs-Browser: https://github.com/Joshua-Riek/ubuntu-rockchip-settings
+Vcs-Git: https://github.com/Joshua-Riek/ubuntu-rockchip-settings
+
+Package: ubuntu-rockchip-settings
+Architecture: all
+Depends: ${misc:Depends}, lz4
+Description: default settings for Rockchip devices
+ This package contains some default settings that are specific to Rockchip
+ devices.
+
+Package: ubuntu-rockchip-settings-desktop
+Architecture: all
+Depends: ${misc:Depends}, ubuntu-rockchip-settings, e2fsprogs
+Description: default settings for Ubuntu Desktop on Rockchip devices
+ This package contains some default settings that are specific to the Ubuntu
+ Desktop running on Rockchip devices.
+
+Package: ubuntu-rockchip-settings-server
+Architecture: all
+Depends: ${misc:Depends}, ubuntu-rockchip-settings
+Description: default settings for Ubuntu Server on Rockchip devices
+ This package contains some default settings that are specific to the Ubuntu
+ Server running on Rockchip devices.

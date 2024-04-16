@@ -1,0 +1,6 @@
+lib/systemd/system/mkswap.service
+lib/systemd/system/swapfile.swap
+etc/chromium-browser/default
+lib/chromium-browser/initial_preferences
+etc/initramfs-tools/conf-hooks.d/plymouth
+usr/share/applications/mimeapps.list

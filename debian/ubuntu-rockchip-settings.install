@@ -1,0 +1,7 @@
+etc/initramfs-tools/conf.d/rockchip-gzip.conf
+usr/share/u-boot-menu/conf.d/u-boot-menu.conf
+lib/systemd/system/cpu-governor.service
+lib/systemd/system/gpu-governor.service
+etc/sysctl.d/9-rockchip-apparmor.conf
+etc/modprobe.d/rfkill.conf
+lib/systemd/system/serial-getty@.service.d/10-term.conf

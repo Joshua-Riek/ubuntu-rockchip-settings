@@ -1,0 +1,7 @@
+# Yes, we actually want swap.target for the swap file, and for growing the
+# root fs that contains the swap file...
+systemd-service-file-refers-to-unusual-wantedby-target swap.target [lib/systemd/system/mkswap.service]
+
+# We don't support any init-system other than systemd
+systemd-service-file-missing-documentation-key [lib/systemd/system/mkswap.service]
+package-supports-alternative-init-but-no-init.d-script [lib/systemd/system/mkswap.service]

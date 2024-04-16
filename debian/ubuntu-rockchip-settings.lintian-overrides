@@ -1,0 +1,5 @@
+# We don't support any init-system other than systemd
+systemd-service-file-missing-documentation-key [lib/systemd/system/cpu-governor-performance.service]
+systemd-service-file-missing-documentation-key [lib/systemd/system/gpu-governor-performance.service]
+package-supports-alternative-init-but-no-init.d-script [lib/systemd/system/cpu-governor-performance.service]
+package-supports-alternative-init-but-no-init.d-script [lib/systemd/system/gpu-governor-performance.service]
