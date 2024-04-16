@@ -1,3 +1,11 @@
+ubuntu-rockchip-settings (24.04.2) noble; urgency=medium
+
+  * add video group for default users
+  * disable release upgrade prompt
+  * add systemd override for 120 second network timeout 
+
+ -- Joshua Riek <jjriek@verizon.net>  Tue, 16 Apr 2024 19:22:41 -0400
+
 ubuntu-rockchip-settings (24.04.1) noble; urgency=medium
 
   * Inital release
