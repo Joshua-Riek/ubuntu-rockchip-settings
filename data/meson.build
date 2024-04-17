@@ -14,8 +14,6 @@ install_data('common/cpu-governor.service',
              install_dir: '/lib/systemd/system')
 install_data('common/gpu-governor.service',
              install_dir: '/lib/systemd/system')
-install_data('common/u-boot-menu.conf',
-             install_dir: usr_share / 'u-boot-menu/conf.d')
 install_data('common/rockchip-gzip.conf',
              install_dir: etc / 'initramfs-tools/conf.d')
 install_data('common/rfkill.conf',
