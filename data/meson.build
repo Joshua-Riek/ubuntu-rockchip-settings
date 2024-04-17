@@ -24,10 +24,6 @@ install_data('common/9-rockchip-apparmor.conf',
              install_dir: etc / 'sysctl.d')
 install_data('common/10-term.conf',
              install_dir: '/lib/systemd/system/serial-getty@.service.d')
-install_data('common/release-upgrades',
-             install_dir: etc / 'update-manager')
-install_data('common/adduser.conf',
-             install_dir: etc / '')
 
 install_data('desktop/mkswap.service',
              install_dir: '/lib/systemd/system')
@@ -37,7 +33,5 @@ install_data('desktop/initial_preferences',
              install_dir: '/lib/chromium-browser')
 install_data('desktop/plymouth',
              install_dir: etc / 'initramfs-tools/conf-hooks.d')
-install_data('desktop/default',
-             install_dir: etc / 'chromium-browser')
 install_data('desktop/mimeapps.list',
              install_dir: usr_share / 'applications')
