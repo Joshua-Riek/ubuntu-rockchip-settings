@@ -19,6 +19,7 @@ case "$1" in
         # "proper" methods both demand the prior version actually owned the
         # file being removed. So...
         rm -f /etc/netplan/01-network-manager-all.yaml
+        dconf update
         ;;
 esac
 

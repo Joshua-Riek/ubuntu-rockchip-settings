@@ -3,3 +3,5 @@ lib/systemd/system/swapfile.swap
 lib/chromium-browser/initial_preferences
 etc/initramfs-tools/conf-hooks.d/plymouth
 usr/share/applications/mimeapps.list
+/etc/dconf/db/local.d/00-favorite-apps
+/etc/dconf/profile/user

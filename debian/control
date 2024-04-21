@@ -16,7 +16,7 @@ Description: default settings for Rockchip devices
 
 Package: ubuntu-rockchip-settings-desktop
 Architecture: all
-Depends: ${misc:Depends}, ubuntu-rockchip-settings, e2fsprogs
+Depends: ${misc:Depends}, ubuntu-rockchip-settings, e2fsprogs, dconf-cli
 Description: default settings for Ubuntu Desktop on Rockchip devices
  This package contains some default settings that are specific to the Ubuntu
  Desktop running on Rockchip devices.

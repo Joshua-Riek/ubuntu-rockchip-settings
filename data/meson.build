@@ -33,3 +33,7 @@ install_data('desktop/plymouth',
              install_dir: etc / 'initramfs-tools/conf-hooks.d')
 install_data('desktop/mimeapps.list',
              install_dir: usr_share / 'applications')
+install_data('desktop/00-favorite-apps',
+             install_dir: etc / 'dconf/db/local.d')
+install_data('desktop/user',
+             install_dir: etc / '/etc/dconf/profile')
