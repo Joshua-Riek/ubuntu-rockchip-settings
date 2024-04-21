@@ -1,3 +1,9 @@
+ubuntu-rockchip-settings (24.04.5) noble; urgency=medium
+
+  * add chrome to favorites bar
+
+ -- Joshua Riek <jjriek@verizon.net>  Sun, 21 Apr 2024 18:31:33 -0400
+
 ubuntu-rockchip-settings (24.04.4) noble; urgency=medium
 
   * remove u-boot-menu config
