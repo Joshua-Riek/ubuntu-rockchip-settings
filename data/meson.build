@@ -36,4 +36,4 @@ install_data('desktop/mimeapps.list',
 install_data('desktop/00-favorite-apps',
              install_dir: etc / 'dconf/db/local.d')
 install_data('desktop/user',
-             install_dir: etc / '/etc/dconf/profile')
+             install_dir: etc / 'dconf/profile')
