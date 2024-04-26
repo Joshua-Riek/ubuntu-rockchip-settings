@@ -9,7 +9,7 @@ Vcs-Git: https://github.com/Joshua-Riek/ubuntu-rockchip-settings
 
 Package: ubuntu-rockchip-settings
 Architecture: all
-Depends: ${misc:Depends}, lz4
+Depends: ${misc:Depends}, lz4, rsync, dosfstools, dd, fdisk, df
 Description: default settings for Rockchip devices
  This package contains some default settings that are specific to Rockchip
  devices.

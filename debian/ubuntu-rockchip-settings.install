@@ -4,3 +4,4 @@ lib/systemd/system/gpu-governor.service
 etc/sysctl.d/9-rockchip-apparmor.conf
 etc/modprobe.d/rfkill.conf
 lib/systemd/system/serial-getty@.service.d/10-term.conf
+bin/ubuntu-rockchip-install
