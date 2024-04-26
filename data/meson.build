@@ -18,8 +18,6 @@ install_data('common/rockchip-gzip.conf',
              install_dir: etc / 'initramfs-tools/conf.d')
 install_data('common/rfkill.conf',
              install_dir: etc / 'modprobe.d')
-install_data('common/9-rockchip-apparmor.conf',
-             install_dir: etc / 'sysctl.d')
 install_data('common/10-term.conf',
              install_dir: '/lib/systemd/system/serial-getty@.service.d')
 install_data('common/ubuntu-rockchip-install',
