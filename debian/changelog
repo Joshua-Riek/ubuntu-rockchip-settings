@@ -1,3 +1,9 @@
+ubuntu-rockchip-settings (24.04.8) noble; urgency=medium
+
+  * fix control depends
+
+ -- Joshua Riek <jjriek@verizon.net>  Sat, 27 Apr 2024 10:28:42 -0400
+
 ubuntu-rockchip-settings (24.04.7) noble; urgency=medium
 
   * remove rockchip apparmor config
