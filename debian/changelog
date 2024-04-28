@@ -1,3 +1,10 @@
+ubuntu-rockchip-settings (22.04.1) jammy; urgency=medium
+
+  * backport to jammy
+  * modify favorite apps for jammy
+
+ -- Joshua Riek <jjriek@verizon.net>  Sun, 28 Apr 2024 19:29:39 -0400
+
 ubuntu-rockchip-settings (24.04.8) noble; urgency=medium
 
   * fix control depends
