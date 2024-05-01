@@ -1,3 +1,9 @@
+ubuntu-rockchip-settings (22.04.2) jammy; urgency=medium
+
+  * add configs for NetworkManager
+
+ -- Joshua Riek <jjriek@verizon.net>  Wed, 01 May 2024 12:04:09 -0400
+
 ubuntu-rockchip-settings (22.04.1) jammy; urgency=medium
 
   * backport to jammy
