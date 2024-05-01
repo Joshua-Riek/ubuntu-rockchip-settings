@@ -5,7 +5,6 @@ etc/initramfs-tools/conf-hooks.d/plymouth
 usr/share/applications/mimeapps.list
 etc/dconf/db/local.d/00-favorite-apps
 etc/dconf/profile/user
-etc/NetworkManager/NetworkManager.conf
 lib/NetworkManager/conf.d/10-globally-managed-devices.conf
 lib/NetworkManager/conf.d/10-override-wifi-random-mac-disable.conf
 etc/netplan/01-use-network-manager.yaml
