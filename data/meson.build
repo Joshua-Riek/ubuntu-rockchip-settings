@@ -38,3 +38,12 @@ install_data('desktop/00-favorite-apps',
              install_dir: etc / 'dconf/db/local.d')
 install_data('desktop/user',
              install_dir: etc / 'dconf/profile')
+
+install_data('desktop/NetworkManager.conf',
+             install_dir: etc / 'NetworkManager')
+install_data('desktop/10-globally-managed-devices.conf',
+             install_dir: '/lib/NetworkManager/conf.d')
+install_data('desktop/10-override-wifi-random-mac-disable.conf',
+             install_dir: '/lib/NetworkManager/conf.d')
+install_data('desktop/01-use-network-manager.yaml',
+             install_dir: etc / 'netplan')
