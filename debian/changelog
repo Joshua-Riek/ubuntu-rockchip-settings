@@ -1,3 +1,9 @@
+ubuntu-rockchip-settings (24.04.9) noble; urgency=medium
+
+  * remove systemd-networkd-wait-online override
+
+ -- Joshua Riek <jjriek@verizon.net>  Sat, 04 May 2024 15:50:19 -0400
+
 ubuntu-rockchip-settings (24.04.8) noble; urgency=medium
 
   * fix control depends
