@@ -1,3 +1,9 @@
+ubuntu-rockchip-settings (22.04.6) jammy; urgency=medium
+
+  * add missing dp1 naming audio rule
+
+ -- Joshua Riek <jjriek@verizon.net>  Sat, 04 May 2024 17:59:06 -0400
+
 ubuntu-rockchip-settings (22.04.5) jammy; urgency=medium
 
   * add rockchip naming audio rules
