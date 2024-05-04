@@ -4,3 +4,4 @@ lib/systemd/system/gpu-governor.service
 etc/modprobe.d/rfkill.conf
 lib/systemd/system/serial-getty@.service.d/10-term.conf
 bin/ubuntu-rockchip-install
+etc/udev/rules.d/90-naming-audios.rules

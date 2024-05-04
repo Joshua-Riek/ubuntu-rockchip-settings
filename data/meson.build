@@ -20,7 +20,8 @@ install_data('common/10-term.conf',
              install_dir: '/lib/systemd/system/serial-getty@.service.d')
 install_data('common/ubuntu-rockchip-install',
              install_dir: '/bin')
-
+install_data('common/90-naming-audios.rules',
+             install_dir: etc / 'udev/rules.d')
 
 install_data('desktop/mkswap.service',
              install_dir: '/lib/systemd/system')
