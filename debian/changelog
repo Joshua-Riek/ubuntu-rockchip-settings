@@ -1,3 +1,9 @@
+ubuntu-rockchip-settings (22.04.5) jammy; urgency=medium
+
+  * add rockchip naming audio rules
+
+ -- Joshua Riek <jjriek@verizon.net>  Sat, 04 May 2024 16:50:40 -0400
+
 ubuntu-rockchip-settings (22.04.4) jammy; urgency=medium
 
   * remove systemd-networkd-wait-online override
