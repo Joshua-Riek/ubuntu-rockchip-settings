@@ -1,3 +1,10 @@
+ubuntu-rockchip-settings (22.04.7) jammy; urgency=medium
+
+  * add missing hdmi2 naming audio rule
+  * usb modeswitch hack for 8811CU/8821CU compatibility 
+
+ -- Joshua Riek <jjriek@verizon.net>  Wed, 08 May 2024 18:13:29 -0400
+
 ubuntu-rockchip-settings (22.04.6) jammy; urgency=medium
 
   * add missing dp1 naming audio rule
