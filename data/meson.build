@@ -22,6 +22,8 @@ install_data('common/ubuntu-rockchip-install',
              install_dir: '/bin')
 install_data('common/90-naming-audios.rules',
              install_dir: etc / 'udev/rules.d')
+install_data('common/usb_modeswitch',
+             install_dir: usr_share / 'initramfs-tools/hooks')
 
 install_data('desktop/mkswap.service',
              install_dir: '/lib/systemd/system')

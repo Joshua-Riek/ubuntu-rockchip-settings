@@ -1,0 +1,31 @@
+#!/bin/sh
+
+PREREQ=""
+prereqs()
+{
+    echo "$PREREQ"
+}
+
+case $1 in
+prereqs)
+    prereqs
+    exit 0
+    ;;
+esac
+
+. /usr/share/initramfs-tools/scripts/functions
+. /usr/share/initramfs-tools/hook-functions
+
+# Allow usb modeswitch to run and detect devices early
+copy_exec /usr/sbin/usb_modeswitch /usr/sbin/usb_modeswitch 
+copy_exec /etc/udev/rules.d/40-usb_modeswitch.rules /etc/udev/rules.d/40-usb_modeswitch.rules
+copy_exec /lib/udev/rules.d/40-usb_modeswitch.rules /lib/udev/rules.d/40-usb_modeswitch.rules
+
+# Copy realtek bluetooth firmware for usb modeswitch
+for file in /usr/lib/firmware/rtl_bt/*; do
+    if [ -f "${file}" ]; then
+        copy_exec "${file}" /usr/lib/firmware/rtl_bt
+    fi
+done
+
+exit 0
