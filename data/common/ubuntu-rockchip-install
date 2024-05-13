@@ -184,7 +184,7 @@ else
     mount "${disk}${partition_char}2" ${mount_point}/cloudimg-rootfs
 
     tmpdir=$(mktemp -d)
-    cidata="$(findmnt -n -o SOURCES /)"
+    cidata="$(findmnt -n -o SOURCE /)"
     mount ${cidata::-1}1 ${tmpdir}
 
     echo "Counting files..."
