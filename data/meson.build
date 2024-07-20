@@ -8,10 +8,6 @@ install_data('server/99-fake-cloud.cfg',
 install_data('server/getty-wait.conf',
              install_dir: etc / 'systemd/system/cloud-config.service.d')
 
-install_data('common/cpu-governor.service',
-             install_dir: '/lib/systemd/system')
-install_data('common/gpu-governor.service',
-             install_dir: '/lib/systemd/system')
 install_data('common/rockchip-gzip.conf',
              install_dir: etc / 'initramfs-tools/conf.d')
 install_data('common/rfkill.conf',
@@ -20,7 +16,6 @@ install_data('common/10-term.conf',
              install_dir: '/lib/systemd/system/serial-getty@.service.d')
 install_data('common/ubuntu-rockchip-install',
              install_dir: '/bin')
-
 
 install_data('desktop/mkswap.service',
              install_dir: '/lib/systemd/system')
