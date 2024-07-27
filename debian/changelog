@@ -1,3 +1,9 @@
+ubuntu-rockchip-settings (24.10.2) oracular; urgency=medium
+
+  * remove cpu and gpu governor from dh_installsystemd
+
+ -- Joshua Riek <jjriek@verizon.net>  Sat, 27 Jul 2024 12:41:51 -0400
+
 ubuntu-rockchip-settings (24.10.1) oracular; urgency=medium
 
   * remove cpu and gpu governor services
