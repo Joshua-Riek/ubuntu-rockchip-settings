@@ -9,8 +9,6 @@ override_dh_missing:
 override_dh_installsystemd:
 	dh_installsystemd -pubuntu-rockchip-settings-desktop --name=mkswap mkswap.service
 	dh_installsystemd -pubuntu-rockchip-settings-desktop --name=swapfile swapfile.swap
-	dh_installsystemd -pubuntu-rockchip-settings --name=cpu-governor cpu-governor.service
-	dh_installsystemd -pubuntu-rockchip-settings --name=gpu-governor gpu-governor.service
 
 override_dh_installgsettings:
 	dh_installgsettings -pubuntu-rockchip-settings --priority 15
