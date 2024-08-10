@@ -1,3 +1,9 @@
+ubuntu-rockchip-settings (24.10.3) oracular; urgency=medium
+
+  *  run systemctl daemon-reload before creating filesystems
+
+ -- Joshua Riek <jjriek@verizon.net>  Sat, 10 Aug 2024 14:13:30 -0400
+
 ubuntu-rockchip-settings (24.10.2) oracular; urgency=medium
 
   * remove cpu and gpu governor from dh_installsystemd
