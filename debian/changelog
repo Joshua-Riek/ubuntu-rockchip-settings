@@ -1,3 +1,9 @@
+ubuntu-rockchip-settings (24.04.11) noble; urgency=medium
+
+  * run systemctl daemon-reload before creating filesystems
+
+ -- Joshua Riek <jjriek@verizon.net>  Sat, 10 Aug 2024 14:15:31 -0400
+
 ubuntu-rockchip-settings (24.04.10) noble; urgency=medium
 
   *  fix typo in findmnt command
