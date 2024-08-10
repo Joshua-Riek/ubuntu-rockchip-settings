@@ -84,6 +84,8 @@ if [ "$(findmnt -n -o LABEL /)" == "desktop-rootfs" ]; then
     # Generate random uuid for rootfs
     root_uuid=$(uuidgen)
 
+    systemctl daemon-reload
+
     # Create filesystems on partitions
     dd if=/dev/zero of="${disk}${partition_char}1" bs=1KB count=10 2> /dev/null
     mkfs.ext4 -U "${root_uuid}" -L desktop-rootfs "${disk}${partition_char}1" &> /dev/null
@@ -172,6 +174,8 @@ else
 
     # Generate random uuid for rootfs
     root_uuid=$(uuidgen)
+
+    systemctl daemon-reload
 
     # Create filesystems on partitions
     mkfs.vfat -i "${boot_uuid}" -F32 -n CIDATA "${disk}${partition_char}1" &> /dev/null
