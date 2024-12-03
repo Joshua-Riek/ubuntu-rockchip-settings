@@ -1,0 +1,9 @@
+ubuntu-rockchip-settings
+ubuntu-rockchip-settings-desktop
+ubuntu-rockchip-settings-server
+debhelper-build-stamp
+files
+tmp
+*.substvars
+*.debhelper
+*.log
