@@ -6,11 +6,13 @@ name: Build
       - jammy
       - noble
       - oracular
+      - plucky
   pull_request:
     branches:
       - jammy
       - noble
       - oracular
+      - plucky
 
 jobs:
   build:
