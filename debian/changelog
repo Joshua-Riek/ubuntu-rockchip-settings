@@ -1,3 +1,12 @@
+ubuntu-rockchip-settings (25.04.1) plucky; urgency=medium
+
+  * add plucky to workflow
+  * add github actions workflow
+  * add readme
+  * add gitignore
+
+ -- Joshua Riek <jjriek@verizon.net>  Tue, 03 Dec 2024 19:03:35 -0500
+
 ubuntu-rockchip-settings (24.10.3) oracular; urgency=medium
 
   *  run systemctl daemon-reload before creating filesystems
